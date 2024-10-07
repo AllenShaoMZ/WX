@@ -1,0 +1,668 @@
+Dependencies for Project 'XX4_0710', Target 'Cortex-M3 Flash': (DO NOT MODIFY !)
+CompilerVersion: 5050106::V5.05 update 1 (build 106)::.\ARMCC
+F (.\CMSIS\startup_arm\startup_m2sxxx.s)(0x66C445AA)(--cpu Cortex-M3 --li -g --apcs=interwork -I ./ -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I ./drivers/mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I ./drivers/mss_timer -I ./drivers/mss_uart -I ./drivers/mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 540" --pd "ARMCM3 SETA 1"--list .\listings\startup_m2sxxx.lst --xref -o .\objects\startup_m2sxxx.o --depend .\objects\startup_m2sxxx.d)
+F (.\CMSIS\system_m2sxxx.c)(0x5108744C)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\system_m2sxxx.o --omf_browse .\objects\system_m2sxxx.crf --depend .\objects\system_m2sxxx.d)
+I (CMSIS\m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (CMSIS\../drivers_config/sys_config/sys_config.h)(0x5108744C)
+I (CMSIS\../drivers_config/sys_config/sys_config_mss_clocks.h)(0x60993074)
+I (CMSIS\sys_init_cfg_types.h)(0x5108744C)
+F (.\CMSIS\startup_arm\retarget.c)(0x5108744C)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+F (.\head\include.h)(0x66909205)()
+F (.\head\define.h)(0x66F4C64A)()
+F (.\head\typedef.h)(0x66F8C519)()
+F (.\head\extern.h)(0x66F136A5)()
+F (.\head\FPGAUart.h)(0x66F7C125)()
+F (.\head\FPGACan.h)(0x66DC6E4B)()
+F (.\head\can.h)(0x669A20BA)()
+F (.\time.h)(0x66F2629B)()
+F (.\main.h)(0x6703B1FE)()
+F (.\memory.h)(0x66F2D449)()
+F (.\flyprog.h)(0x66F64D0C)()
+F (.\yc_init.h)(0x66F65E74)()
+F (.\RS422.h)(0x66F65DC0)()
+F (.\tc.h)(0x66F5059F)()
+F (.\program_control.h)(0x66F8F8AF)()
+F (.\source\main.c)(0x6703CEAD)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (./CMSIS/mss_assert.h)(0x5108744C)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (./drivers_config/sys_config/sys_config.h)(0x5108744C)
+I (./drivers_config/sys_config/sys_config_mss_clocks.h)(0x60993074)
+I (.\drivers\mss_uart\mss_uart.h)(0x5108744C)
+I (.\drivers\mss_uart\../../CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\drivers\mss_gpio\mss_gpio.h)(0x5108744C)
+I (.\drivers\mss_timer\mss_timer.h)(0x5108744C)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\head\FPGACan.h)(0x66DC6E4B)
+I (.\head\can.h)(0x669A20BA)
+I (.\drivers\mss_can\mss_can.h)(0x58AD481E)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\BSP\Template\bsp.h)(0x51DBB5C4)
+I (.\MidWares\uCOS3\uC-LIB\lib_ascii.h)(0x608C6CA5)
+I (.\head\includes.h)(0x66C45230)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+I (./main.h)(0x6703B1FE)
+I (./time.h)(0x66F2629B)
+I (./flyprog.h)(0x66F64D0C)
+I (./memory.h)(0x66F2D449)
+I (.\head\extern.h)(0x66F136A5)
+F (.\source\basic.c)(0x66A0E237)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\basic.o --omf_browse .\objects\basic.crf --depend .\objects\basic.d)
+I (.\head\extern.h)(0x66F136A5)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (./CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (.\head\FPGACan.h)(0x66DC6E4B)
+I (.\drivers\mss_gpio\mss_gpio.h)(0x5108744C)
+F (.\source\extern.c)(0x66ECEEEA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\extern.o --omf_browse .\objects\extern.crf --depend .\objects\extern.d)
+I (.\head\extern.h)(0x66F136A5)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (./CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (.\head\FPGACan.h)(0x66DC6E4B)
+I (.\drivers\mss_gpio\mss_gpio.h)(0x5108744C)
+I (.\drivers\mss_timer\mss_timer.h)(0x5108744C)
+F (.\source\FPGAUart.c)(0x66F94B2D)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\fpgauart.o --omf_browse .\objects\fpgauart.crf --depend .\objects\fpgauart.d)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (./CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\head\FPGACan.h)(0x66DC6E4B)
+I (.\drivers\mss_gpio\mss_gpio.h)(0x5108744C)
+I (.\head\extern.h)(0x66F136A5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\source\FPGACan.c)(0x66DFBE54)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\fpgacan.o --omf_browse .\objects\fpgacan.crf --depend .\objects\fpgacan.d)
+I (.\head\FPGACan.h)(0x66DC6E4B)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (./CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (.\drivers\mss_gpio\mss_gpio.h)(0x5108744C)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\head\extern.h)(0x66F136A5)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (.\head\includes.h)(0x66C45230)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\lib_ascii.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\source\can.c)(0x66DFC83E)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+I (.\head\can.h)(0x669A20BA)
+I (.\drivers\mss_can\mss_can.h)(0x58AD481E)
+I (.\drivers\mss_can\../../CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+F (.\time.c)(0x6703CF1E)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\time.o --omf_browse .\objects\time.crf --depend .\objects\time.d)
+I (time.h)(0x66F2629B)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+I (memory.h)(0x66F2D449)
+F (.\memory.c)(0x66F502AC)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\memory.o --omf_browse .\objects\memory.crf --depend .\objects\memory.d)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (memory.h)(0x66F2D449)
+I (.\MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+F (.\flyprog.c)(0x6703CFC3)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\flyprog.o --omf_browse .\objects\flyprog.crf --depend .\objects\flyprog.d)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (flyprog.h)(0x66F64D0C)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (memory.h)(0x66F2D449)
+I (.\MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+I (RS422.h)(0x66F65DC0)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (yc_init.h)(0x66F65E74)
+I (tc.h)(0x66F5059F)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (./CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (program_control.h)(0x66F8F8AF)
+F (.\RS422.c)(0x66F65E74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\rs422.o --omf_browse .\objects\rs422.crf --depend .\objects\rs422.d)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (RS422.h)(0x66F65DC0)
+I (memory.h)(0x66F2D449)
+I (.\MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\tc.c)(0x6703CFE6)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\tc.o --omf_browse .\objects\tc.crf --depend .\objects\tc.d)
+I (tc.h)(0x66F5059F)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (memory.h)(0x66F2D449)
+I (.\MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+I (.\head\typedef.h)(0x66F8C519)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+F (.\program_control.c)(0x67038F88)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\program_control.o --omf_browse .\objects\program_control.crf --depend .\objects\program_control.d)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
+I (.\head\define.h)(0x66F4C64A)
+I (.\head\include.h)(0x66909205)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (D:\MDK\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (flyprog.h)(0x66F64D0C)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (program_control.h)(0x66F8F8AF)
+I (.\head\FPGAUart.h)(0x66F7C125)
+I (./drivers/mss_sys_services/mss_sys_services.h)(0x5108744C)
+I (./CMSIS/m2sxxx.h)(0x5108744C)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x66C2BDC6)
+I (..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x66C2BDC6)
+I (.\head\typedef.h)(0x66F8C519)
+F (.\Objects\M2S050T_MSS_CM3_hw_platform.lib)(0x6099D05A)()
+F (.\MidWares\uCOS3\uC-CPU\BSP\Template\bsp_cpu.c)(0x66C5CCFA)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\bsp_cpu.o --omf_browse .\objects\bsp_cpu.crf --depend .\objects\bsp_cpu.d)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-CPU\BSP\Template\bsp.h)(0x51DBB5C4)
+I (.\MidWares\uCOS3\uC-LIB\lib_ascii.h)(0x608C6CA5)
+F (.\MidWares\uCOS3\uC-OS3\Template\bsp_os_dt.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\bsp_os_dt.o --omf_browse .\objects\bsp_os_dt.crf --depend .\objects\bsp_os_dt.d)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\cpu_c.c)(0x60916F92)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\cpu_c.o --omf_browse .\objects\cpu_c.crf --depend .\objects\cpu_c.d)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+F (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu_a.asm)(0x60916F92)(--cpu Cortex-M3 --li -g --apcs=interwork -I ./ -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I ./drivers/mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I ./drivers/mss_timer -I ./drivers/mss_uart -I ./drivers/mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 540" --pd "ARMCM3 SETA 1"--list .\listings\cpu_a.lst --xref -o .\objects\cpu_a.o --depend .\objects\cpu_a.d)
+F (.\MidWares\uCOS3\uC-CPU\cpu_core.c)(0x60916F92)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\cpu_core.o --omf_browse .\objects\cpu_core.crf --depend .\objects\cpu_core.d)
+I (MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+F (.\MidWares\uCOS3\uC-LIB\lib_ascii.c)(0x608C6CA5)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\lib_ascii.o --omf_browse .\objects\lib_ascii.crf --depend .\objects\lib_ascii.d)
+I (.\MidWares\uCOS3\uC-LIB\lib_ascii.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+F (.\MidWares\uCOS3\uC-LIB\lib_math.c)(0x608C6CA5)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\lib_math.o --omf_browse .\objects\lib_math.crf --depend .\objects\lib_math.d)
+I (.\MidWares\uCOS3\uC-LIB\lib_math.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+F (.\MidWares\uCOS3\uC-LIB\lib_mem.c)(0x608C6CA5)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\lib_mem.o --omf_browse .\objects\lib_mem.crf --depend .\objects\lib_mem.d)
+I (MidWares\uCOS3\uC-LIB\lib_mem.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+I (MidWares\uCOS3\uC-LIB\lib_math.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-LIB\lib_str.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\lib_ascii.h)(0x608C6CA5)
+F (.\MidWares\uCOS3\uC-LIB\lib_str.c)(0x608C6CA5)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\lib_str.o --omf_browse .\objects\lib_str.crf --depend .\objects\lib_str.d)
+I (.\MidWares\uCOS3\uC-LIB\lib_str.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\lib_ascii.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-LIB\Cfg\Template\lib_cfg.h)(0x66C5A6F8)
+F (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_app_hooks.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_app_hooks.o --omf_browse .\objects\os_app_hooks.crf --depend .\objects\os_app_hooks.d)
+I (.\MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Cfg\Template\os_app_hooks.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\os_cpu_c.c)(0x66C5D25A)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_cpu_c.o --omf_browse .\objects\os_cpu_c.crf --depend .\objects\os_cpu_c.d)
+I (MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\../../../Source/os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\../../../Source/os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\../../../Source/os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu_a.asm)(0x63897C74)(--cpu Cortex-M3 --li -g --apcs=interwork -I ./ -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I ./drivers/mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I ./drivers/mss_timer -I ./drivers/mss_uart -I ./drivers/mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 540" --pd "ARMCM3 SETA 1"--list .\listings\os_cpu_a.lst --xref -o .\objects\os_cpu_a.o --depend .\objects\os_cpu_a.d)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_cfg_app.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_cfg_app.o --omf_browse .\objects\os_cfg_app.crf --depend .\objects\os_cfg_app.d)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_core.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_core.o --omf_browse .\objects\os_core.crf --depend .\objects\os_core.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_dbg.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_dbg.o --omf_browse .\objects\os_dbg.crf --depend .\objects\os_dbg.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_flag.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_flag.o --omf_browse .\objects\os_flag.crf --depend .\objects\os_flag.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_mem.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_mem.o --omf_browse .\objects\os_mem.crf --depend .\objects\os_mem.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_msg.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_msg.o --omf_browse .\objects\os_msg.crf --depend .\objects\os_msg.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_mutex.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_mutex.o --omf_browse .\objects\os_mutex.crf --depend .\objects\os_mutex.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_prio.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_prio.o --omf_browse .\objects\os_prio.crf --depend .\objects\os_prio.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_q.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_q.o --omf_browse .\objects\os_q.crf --depend .\objects\os_q.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_sem.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_sem.o --omf_browse .\objects\os_sem.crf --depend .\objects\os_sem.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_stat.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_stat.o --omf_browse .\objects\os_stat.crf --depend .\objects\os_stat.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_task.c)(0x66D2CBFB)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_task.o --omf_browse .\objects\os_task.crf --depend .\objects\os_task.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_tick.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_tick.o --omf_browse .\objects\os_tick.crf --depend .\objects\os_tick.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_time.c)(0x66C5B238)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_time.o --omf_browse .\objects\os_time.crf --depend .\objects\os_time.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_tmr.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_tmr.o --omf_browse .\objects\os_tmr.crf --depend .\objects\os_tmr.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)
+F (.\MidWares\uCOS3\uC-OS3\Source\os_var.c)(0x63897C74)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ./ -I .\App -I ./CMSIS -I ./CMSIS/startup_arm -I ./drivers -I .\drivers\mss_gpio -I ./drivers/mss_hpdma -I ./drivers/mss_nvm -I ./drivers/mss_pdma -I ./drivers/mss_sys_services -I .\drivers\mss_timer -I .\drivers\mss_uart -I .\drivers\mss_watchdog -I ./drivers_config -I ./drivers_config/sys_config -I ./hal -I ./hal/CortexM3 -I ./hal/CortexM3/Keil -I .\head -I .\drivers\mss_can -I .\drivers\mss_spi -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\source -I .\MidWares -I .\MidWares\uCOS3\uC-CPU\Cfg\Template -I .\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-CPU -I .\MidWares\uCOS3\uC-LIB\Cfg\Template -I .\MidWares\uCOS3\uC-LIB -I .\MidWares\uCOS3\uC-OS3\Cfg\Template -I .\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM -I .\MidWares\uCOS3\uC-OS3\Source -I .\MidWares\uCOS3\uC-CPU\BSP\Template -I ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I .\SYSTEM -I D:\soft\Keil_v5\ArmPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include -I ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include --c99-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM3\Include-ID:\MDK\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="540" -DARMCM3 -DMSS_CAN_ENABLE_INTERRUPTS -DMSS_CAN_USER_ISR-o .\objects\os_var.o --omf_browse .\objects\os_var.crf --depend .\objects\os_var.d)
+I (MidWares\uCOS3\uC-OS3\Source\os.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg.h)(0x66C5CEF3)
+I (.\MidWares\uCOS3\uC-OS3\Cfg\Template\os_cfg_app.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-CPU\cpu_core.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h)(0x66F2DD54)
+I (.\MidWares\uCOS3\uC-CPU\cpu_def.h)(0x60916F92)
+I (.\MidWares\uCOS3\uC-CPU\Cfg\Template\cpu_cfg.h)(0x66F2DD22)
+I (.\MidWares\uCOS3\uC-LIB\lib_def.h)(0x608C6CA5)
+I (MidWares\uCOS3\uC-OS3\Source\os_type.h)(0x63897C74)
+I (.\MidWares\uCOS3\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h)(0x63897C74)
+I (MidWares\uCOS3\uC-OS3\Source\os_trace.h)(0x63897C74)

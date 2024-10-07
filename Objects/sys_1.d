@@ -1,0 +1,10 @@
+.\objects\sys_1.o: SYSTEM\sys\sys.c
+.\objects\sys_1.o: ././SYSTEM/sys/sys.h
+.\objects\sys_1.o: ./CMSIS/m2sxxx.h
+.\objects\sys_1.o: ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h
+.\objects\sys_1.o: D:\MDK\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sys_1.o: ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\sys_1.o: ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\sys_1.o: ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\sys_1.o: ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\sys_1.o: ..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h

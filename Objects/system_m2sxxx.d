@@ -1,0 +1,11 @@
+.\objects\system_m2sxxx.o: CMSIS\system_m2sxxx.c
+.\objects\system_m2sxxx.o: CMSIS\m2sxxx.h
+.\objects\system_m2sxxx.o: ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h
+.\objects\system_m2sxxx.o: D:\MDK\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_m2sxxx.o: ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\system_m2sxxx.o: ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\system_m2sxxx.o: ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\system_m2sxxx.o: ..\..\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\system_m2sxxx.o: CMSIS\../drivers_config/sys_config/sys_config.h
+.\objects\system_m2sxxx.o: CMSIS\../drivers_config/sys_config/sys_config_mss_clocks.h
+.\objects\system_m2sxxx.o: CMSIS\sys_init_cfg_types.h
